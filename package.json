@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-commands",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"license": "MIT",
 	"description": "Esbuild plugin that runs commands after the build succeeded or failed",
 	"author": {
@@ -45,7 +45,7 @@
 		"typescript": "^4.4.3"
 	},
 	"peerDependencies": {
-		"esbuild": "^0.12.0",
+		"esbuild": "^0.12.0 || ^0.13.0",
 		"typescript": "^4.0.0"
 	}
 }
